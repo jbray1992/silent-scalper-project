@@ -1,0 +1,12 @@
+variable "function_name" {
+  description = "Lambda function name"
+  type        = string
+}
+
+variable "lambda_package" {
+  description = "Path to the Lambda deployment package"
+  type        = string
+  default = "/home/jbraysr/aws_silent_scalper/modules/lambda_src/processor.zip"
+  
+}
+
